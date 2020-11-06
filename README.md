@@ -22,5 +22,3 @@ Gadgets NDTV includs the lpatops of price range with their specs, where I scrape
 
 [Gadgets NDTV](https://gadgets.ndtv.com/laptops/laptops-under-50000)
 
-
-Learnt From : [Just Markham](https://github.com/justmarkham/trump-lies/blob/master/trump_lies.ipynb)
