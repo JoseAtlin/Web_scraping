@@ -13,7 +13,7 @@ It includes :
 In this I tried to scrape the data from the New York Times article using Python and created a CSV file for the same
 
 
-Gadgets NDTV includs the lpatops of price range with their specs, where I scrape the data and stored in the form of a list python
+Gadgets NDTV includs the lpatops of price range with their specs, where I scrape the data and stored as a csv file
 
 
 
