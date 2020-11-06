@@ -13,7 +13,14 @@ It includes :
 In this I tried to scrape the data from the New York Times article using Python and created a CSV file for the same
 
 
+Gadgets NDTV includs the lpatops of price range with their specs, where I scrape the data and stored in the form of a list python
+
+
+
 [New York Times Article](https://www.nytimes.com/interactive/2017/06/23/opinion/trumps-lies.html)
+
+
+[Gadgets NDTV](https://gadgets.ndtv.com/laptops/laptops-under-50000)
 
 
 Learnt From : [Just Markham](https://github.com/justmarkham/trump-lies/blob/master/trump_lies.ipynb)
