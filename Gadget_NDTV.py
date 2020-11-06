@@ -16,7 +16,7 @@ for result in results:
         if temp == 0:
             store['Name'].append(check.text[:])
         elif (temp == 2 or temp == 3) and (check.text[:][:3] == ' Rs'):
-            store['Cost'].append(check.text[:])
+            store['Cost'].append(check.text[:].replace(' ', ''))
         temp += 1
     
     temp = 0
