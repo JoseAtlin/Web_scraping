@@ -7,7 +7,7 @@ r = requests.get('https://gadgets.ndtv.com/laptops/laptops-under-50000')
 soup = BeautifulSoup(r.text, 'html.parser')
 results = soup.find_all('div', attrs={'class': 'pd-lst-wrp kpc_lhs_widget'})
 
-store = {'Name': [], 'Money': [], 'Display size': [], 'Display resolution': [], 'Touchscreen': [], 'Processor': [], 
+store = {'Name': [], 'Cost': [], 'Display size': [], 'Display resolution': [], 'Touchscreen': [], 'Processor': [], 
         'RAM': [], 'OS': [], 'Hard disk': [], 'SSD': [], 'Graphics': [], 'Weight': []}
 c = 0
 for result in results:
@@ -16,7 +16,7 @@ for result in results:
         if temp == 0:
             store['Name'].append(check.text[:])
         elif (temp == 2 or temp == 3) and (check.text[:][:3] == ' Rs'):
-            store['Money'].append(check.text[:].replace(' ', '').replace('Rs.', ''))
+            store['Cost'].append(check.text[:])
         temp += 1
     
     temp = 0
